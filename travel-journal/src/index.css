@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #F55A5A;
+  width: 100%;
+}
+
+.image-size{
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+
+.paragraph{
+  color: white;
+  font-size: #FFFFFF;
+}
+
+.container{
+  margin-top:50px;
+  display:flex;
+  margin-left:50px;
+  justify-content: center;
+}
+
+.main-img{
+  width:125px;
+  height:168px;
+}
+
+.maps{
+
+    width:7px;
+    height:9.55px;
+    margin-top:20px;
+
+}
+
+.location{
+  width:72px;
+  height:9.55px;
+  font-size:10.24px;
+  padding-left:5px;
+  margin-top:20px;
+  font-weight:regular;
+  font-family:Inter;
+}
+
+.view{
+  width:106px;
+    height:13px;
+    color:#918E9B;
+    font-family:Inter;
+    font-size:10.24px;
+    font-weight:regular;
+    margin-top:20px;
+    text-align:left;
+} 
+
+.title{
+  width:326px;
+    height:30px;
+    font-weight:bold;
+    font-size:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.date{
+  font-weight:bold;
+    width:319px;
+    height:11px;
+    color:#2B283A;
+    font-size:10.24px;
+}
+
+.description{
+  width:326px;
+  height:60px;
+  color:#2B283A;
+  font-size:10.24px;
+}
+
+.inner-container{
+  display:flex;
+  height:20px;
+}
+
+.first-container{
+  padding-left:20px;
+}
