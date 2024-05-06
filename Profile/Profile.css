@@ -1,0 +1,282 @@
+*{
+    margin:0px;
+}
+
+body{
+    text-align: center;
+}
+.top-container{
+display:block;
+ width: 100%;
+ max-width: 1440px;  
+ background-color: #e4f9f5;
+ position:relative;
+ padding-top:100px;
+}
+
+.name{
+    display:block;
+    font-size: 5vw;
+    font-family:"Sacramento", cursive;
+    color:#66bfbf;
+    font-weight:normal;
+    margin: 50px auto;
+}
+
+.role{
+    display:block;
+    font-size: 4vw;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight:normal;
+    margin: 50px auto;
+    padding-bottom:10px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    display:block;
+    position:absolute;
+    top:8%;
+    right: 25%;
+    width:15%;
+}
+
+.second-cloud{
+    position:relative;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:20%;
+    bottom: 40%;
+    width:15%;
+}
+
+.mountain{
+    width: 40%;
+}
+
+.middle-container{
+ width: 100%;
+ display:block;
+ max-width: 1440px;
+ margin:50px 0;
+}
+
+.profile{
+    display:block;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.profile-img{
+    width:15%;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-bottom: 1rem; 
+    margin: auto auto 1rem auto;
+}
+
+.hello{
+    color:#66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5vw;
+    font-weight: normal;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.role-description{
+    width:30%;
+    line-height: 2;
+    font-family: "Merriweather", serif;
+    margin: 0 auto;
+    font-weight: normal;
+    margin-bottom: 4rem;
+    font-size: 1.5vw;
+}
+
+.divider{
+    border: 5px solid green;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+
+.skills{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:  auto auto auto auto;
+    gap: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.cat-image{
+    width:100%;
+    height:100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:3;
+    margin: 2px auto;
+}
+
+.heading1{
+font-size: 2rem;
+grid-row-start: 1;
+grid-row-end:2;
+grid-column-start: 2;
+color:#11999e;
+font-family: "Montserrat", sans-serif;
+margin: 2px auto;
+}
+
+.description1{
+    font-size: 1rem;
+    grid-column-start: 2;
+    margin: 2px auto;
+}
+
+.chillies-image{
+    width:100%;
+    height:100%;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end:5;
+    margin: 2px auto;
+}
+
+.heading2{
+font-size: 2rem;
+grid-column-start: 2;
+color:#11999e;
+font-family: "Montserrat", sans-serif;
+margin: 2px auto;
+}
+
+.description2{
+    font-size: 1rem;
+    grid-column-start: 2;
+    margin: 2px auto;
+}
+
+.skills-heading{
+    margin:100px auto;
+    color:#66bfbf;
+    font-size: 5vw;
+    font-weight:normal;
+}
+
+.contact-us{
+    display:block;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.get-in-touch{
+    margin:40px auto;
+    color:#66bfbf;
+    font-size: 5vw;
+    font-weight:normal;
+}
+
+.sub-heading{
+    color:#11999e;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5vw;
+    margin:20px auto;
+}
+
+.contact-description{
+    font-family: "Montserrat", sans-serif;
+    width: 45%;
+    margin:20px auto;
+    font-size: 1.5vw;
+}
+
+button{
+    border-radius: 8px;
+    color:white;
+    font-size: 2vw;
+    padding: 10px;
+    border: 1px solid transparent;
+    font-family: "Montserrat", sans-serif;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+}
+
+button:hover{
+    background-image: linear-gradient(to bottom, lightgreen, lightgreen);
+}
+
+
+footer{
+  width:100%;
+  background-color:#66bfbf;
+}
+
+.bottom-container{
+    display:flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+
+.footer-links{
+    color:#11999e;
+    text-decoration: none;
+    margin:10px 20px;
+}
+
+.footer-links:hover{
+    color:white;
+    text-decoration: none;
+    margin:10px 20px;
+}
+
+.copy-right{
+    color:white;
+    padding: 20px 0;
+}
+
+@media (max-width: 700px){
+    .role-description{
+        width:50%;
+        line-height: 2;
+        font-family: "Merriweather", serif;
+        margin: 0 auto;
+        font-weight: normal;
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 700px){
+    .top-container{
+         padding-top:10px;
+        }
+        .name{
+            margin: 30px auto;
+        }
+        
+        .role{
+            margin: 30px auto;
+        }
+}
+
+@media (max-width:700px){
+    .skills{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+}
